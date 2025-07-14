@@ -1,0 +1,21 @@
+body {
+  transition: background 0.3s, color 0.3s;
+}
+.dark {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+canvas#bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: -1;
+}
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}

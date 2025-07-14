@@ -1,0 +1,5 @@
+.env
+db/db.php
+vendor/*
+sql/*
+base.text

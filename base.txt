@@ -1,0 +1,38 @@
+expense-tracker/
+├── .env
+├── api/
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── logout.php
+│   ├── register/
+│   │   ├── create.php
+│   │   └── validate_invite.php
+│   ├── team/
+│   │   ├── invite.php
+│   │   └── generate_code.php
+│   ├── expense/
+│   │   ├── add.php
+│   │   ├── delete.php
+│   │   ├── get_user.php
+│   │   └── get_team.php
+│   └── db.php
+├── public/
+│   ├── index.php
+│   ├── login.php
+│   ├── register.php
+│   ├── dashboard.php
+│   ├── team_dashboard.php
+│   └── assets/
+│       ├── css/
+│       │   └── theme.css
+│       ├── js/
+│       │   ├── chart.js
+│       │   ├── darkmode.js
+│       │   ├── animate.js  ← 🌐 advanced animated dot-graph (binary-tree style)
+│       │   └── ajax.js
+├── private/
+│   └── seed.php
+├── sql/
+│   └── schema.sql
+├── .gitignore
+└── README.md
